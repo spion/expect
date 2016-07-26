@@ -440,7 +440,7 @@ class Expectation {
     )
 
     assert(
-      spy.calls.some(call => isEqual(call.arguments, expectedArgs)),
+      spy.calls.some(call => tmatch(call.arguments, expectedArgs)),
       'spy was never called with %s',
       expectedArgs
     )

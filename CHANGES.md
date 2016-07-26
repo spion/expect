@@ -1,9 +1,11 @@
 ## [HEAD]
-
+- Breaking change: `toHaveBeenCalledWith` now uses tmatch instead of isEqual,
+  which gives an ability to write more flexible assertions ([#141])
 - `toMatch` and `toNotMatch` use `tmatch` directly, so a wider array
   of objects and patterns are supported
 
 [HEAD]: https://github.com/mjackson/expect/compare/v1.20.1...HEAD
+[#141]: https://github.com/mjackson/expect/pull/141
 
 ## [v1.20.1]
 > May 7, 2016
