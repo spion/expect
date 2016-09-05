@@ -13,5 +13,6 @@ expect.isSpy = isSpy
 expect.restoreSpies = restoreSpies
 expect.assert = assert
 expect.extend = extend
+expect.default = expect
 
 module.exports = expect
